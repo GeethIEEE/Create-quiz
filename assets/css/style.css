@@ -1,0 +1,140 @@
+body, p, ul, h1, h2 {margin:0;padding:0;}
+.custom-container{
+    max-width: 100%;
+    background-color: #fff7d4;
+}
+.header{
+    background: #ffd95a;
+    height: 50px;
+}
+.left{
+    width: 22%;
+    height: 50px;
+    float: left;
+    margin-left: 60px;
+}
+.right{
+    width: 26%;
+    height: 50px;
+    float: right;
+    margin-right: 60px;
+}
+.left ul li {
+    display:inline;
+    margin: 0 0 0 50px;
+    line-height: 51px;
+}
+.right ul li {
+    display:inline;
+    margin: 0 0 0 50px;
+    line-height: 51px;
+}
+
+.left ul li a{
+    text-decoration: none;
+}
+.right ul li a{
+    text-decoration: none;
+}
+.quiz-ar{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Question{
+    float: left;
+}
+.next-back{
+    float: right;
+}
+.back{
+    float: left;
+    background: #5faee7;
+    border-radius: 6px;
+    padding: 7px 33px 7px 33px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-transform: capitalize;
+    margin-right: 15px;
+}
+.next{
+    float: right;
+    background: #ff725e;
+    border-radius: 6px;
+    padding: 7px 33px 7px 33px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.clear{
+    clear: both;
+}
+
+.quiz-content{
+    width: 60%;
+    height: 950px;
+    margin: auto;
+    margin-top: 20px;
+    background: linear-gradient( 44.48deg, rgba(255, 209, 119, 1) 0%, rgba(178, 131, 38, 1) 100% );
+    border-radius: 10px;
+}
+.add{
+    margin-left: 30px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.add-Question{
+    width: 92%;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.sl-Question-type{
+    width: 92%;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.Answer{
+    width: 72%;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.wrong-answers{
+    margin: 30px;
+}
+
+.save{
+    text-align: center;
+    background-color: #03c988;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.save a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.Copyright{
+    background: #4c411b;
+    height: 208.38px;
+
+}
+.Copyright h3{
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+}
+.Copyrightimg{
+    width: 13%;
+    margin: auto;
+}
